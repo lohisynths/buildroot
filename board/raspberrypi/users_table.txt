@@ -1,0 +1,1 @@
+pi -1 pi raspberry -1 /home/pi /bin/sh audio,dialout,tracing pi user
