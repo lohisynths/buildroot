@@ -18,3 +18,7 @@ for i in /etc/profile.d/*.sh ; do
 	fi
 	unset i
 done
+
+export TERM=xterm
+PS1='\[\e[1;32m\]\u@\h\[\e[m\]:\[\e[1;34m\]\w\[\e[m\]\$ '
+alias ll='ls -al'
