@@ -1,1 +1,2 @@
-root=/dev/mmcblk0p2 rootwait console=tty1 console=ttyAMA0,115200 isolcpus=1,2,3
+root=/dev/mmcblk0p2 rootwait isolcpus=1,2,3
+#root=/dev/mmcblk0p2 rootwait console=tty1 console=ttyAMA0,115200 isolcpus=1,2,3
